@@ -1,0 +1,64 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "data": {
+        "id": 1,
+        "relationships": {
+            "shipments": {
+                "links": {
+                    "related": "/api/orders/1/shipments"
+                }
+            },
+            "shipping-address": {
+                "data": {
+                    "type": "addresses",
+                    "id": 1
+                }
+            },
+            "channel": {
+                "data": {
+                    "type": "channels",
+                    "id": 1
+                }
+            },
+            "customer": {
+                "data": {
+                    "type": "customers",
+                    "id": 1
+                }
+            },
+            "billing-address": {
+                "data": {
+                    "type": "addresses",
+                    "id": 2
+                }
+            },
+            "payments": {
+                "links": {
+                    "related": "/api/orders/1/payments"
+                }
+            }
+        },
+        "links": {
+            "self": "/api/orders/1"
+        },
+        "type": "orders",
+        "attributes": {
+            "state": "shipped",
+            "payment-state": "completed",
+            "created-at": "2015-12-10T23:34:15+0000",
+            "expires-at": "2015-12-11T02:34:15+0000",
+            "deleted-at": null,
+            "items-total": 24000,
+            "exchange-rate": 1,
+            "total": 28370,
+            "shipping-state": "ready",
+            "updated-at": "2015-12-11T15:17:36+0000",
+            "number": "000000001",
+            "adjustments-total": 4370,
+            "checkout-state": "cart",
+            "currency": "GBP"
+        }
+    }
+}
