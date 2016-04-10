@@ -39,6 +39,21 @@ This chapter covers the REST API (`jsonapi.org`_) of Shopblender platform.
 
 .. include:: /api/map.rst.inc
 
+
+Database Guide
+-------------------
+
+This chapter covers everything you have to know about database schema changes and how to prepare
+them for production.
+
+.. toctree::
+    :hidden:
+
+    database/index
+
+.. include:: /database/map.rst.inc
+
+
 .. _Shopblender: http://shopblender.com
 .. _Sylius: http://sylius.org
 .. _`Symfony2 Framework`: http://symfony.com
